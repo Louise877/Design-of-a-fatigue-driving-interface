@@ -78,7 +78,6 @@ void newwin2::timerUpdate3()
 }
 void newwin2::on_pushButton_2_clicked()
 {
-    //timer2->stop();
     isCounting = true;
     timer3 = new QTimer(this);
     connect(timer3,SIGNAL(timeout()),this,SLOT(timerUpdate3()));
